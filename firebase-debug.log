@@ -1,0 +1,32 @@
+[debug] [2017-12-27T17:04:47.410Z] ----------------------------------------------------------------------
+[debug] [2017-12-27T17:04:47.410Z] Command:       D:\Nodejs\node.exe C:\Users\Pavel\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-12-27T17:04:47.410Z] CLI Version:   3.16.0
+[debug] [2017-12-27T17:04:47.410Z] Platform:      win32
+[debug] [2017-12-27T17:04:47.410Z] Node Version:  v8.5.0
+[debug] [2017-12-27T17:04:47.410Z] Time:          Wed Dec 27 2017 20:04:47 GMT+0300 (RTZ 2 (зима))
+[debug] [2017-12-27T17:04:47.410Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-27T17:04:47.410Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-27T17:04:47.410Z] > authorizing via signed-in user
+[debug] [2017-12-27T17:04:47.426Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fir-jsexample  
+  
+ Wed Dec 27 2017 20:04:47 GMT+0300 (RTZ 2 (зима))
+[debug] [2017-12-27T17:04:48.888Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-27T17:04:48.888Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fir-jsexample/tokens  
+  
+ Wed Dec 27 2017 20:04:48 GMT+0300 (RTZ 2 (зима))
+[debug] [2017-12-27T17:04:49.520Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\GitRepository\FireBaseJsExample'...
+[info] 
+[debug] [2017-12-27T17:04:49.520Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fir-jsexample  
+  
+ Wed Dec 27 2017 20:04:49 GMT+0300 (RTZ 2 (зима))
+[debug] [2017-12-27T17:04:50.474Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-27T17:04:50.474Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/227877518979/clients/_:getWebAppConfig  
+  
+ Wed Dec 27 2017 20:04:50 GMT+0300 (RTZ 2 (зима))
+[debug] [2017-12-27T17:04:51.116Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+

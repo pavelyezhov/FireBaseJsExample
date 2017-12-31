@@ -1,15 +1,26 @@
 function readFromFireBaseAndLogData(){
-    console.log('Data: ')
-    this.auth = firebase.auth();
-    this.database = firebase.database();
-    this.storage = firebase.storage();
 
-    // Reference to the /messages/ database path.
-    this.messagesRef = this.database.ref('messages');
-    // Make sure we remove all previous listeners.
-    this.messagesRef.off();
-    this.messagesRef.once("value", function(dataSnapshot){
-        console.log(dataSnapshot.val());
-    });
+    var dao = new DAO();
+    dao.init();
+
+    var newItem = {
+        id: 13,
+        name: 'Pavel',
+        text: 'Happy new year!'
+    };
+
+    var itemForUpdate = {
+        id: 1,
+        name: 'Pavel updated',
+        text: 'Updated text from Pavel'
+    };
+
+    dao.saveItem(newItem);
+    dao.updateItem(itemForUpdate);
+    dao.removeItem(5);
+    dao.loadItems([]);
+    dao.getItemById(12);
+
+
 }
 
